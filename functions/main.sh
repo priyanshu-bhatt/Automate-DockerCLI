@@ -12,6 +12,9 @@ source /root/DockerCLI/functions/logs.sh
 source /root/DockerCLI/functions/login.sh
 source /root/DockerCLI/functions/status.sh
 source /root/DockerCLI/functions/process.sh
+source /root/DockerCLI/functions/network.sh
+source /root/DockerCLI/functions/inspect.sh
+source /root/DockerCLI/functions/search.sh
 
 reset_color(){
 
@@ -36,6 +39,9 @@ echo -e  "\t\t\t\t\t7  Process check in Container "
 echo -e  "\t\t\t\t\t8  Execute Taks in a  Container "
 echo -e  "\t\t\t\t\t9  To login in a Container "
 echo -e  "\t\t\t\t\t10 Action On the Status of Container "
+echo -e  "\t\t\t\t\t11 To Manage Network Settings  "
+echo -e  "\t\t\t\t\t12 To inpect various components "
+echo -e  "\t\t\t\t\t13 Search Image in DockerHub "
 
 tput setaf 7
 echo " "
@@ -86,7 +92,17 @@ case $ch in
 		trouble
 
 		;;
+	11)
+		network
+		;;
+	12)
+		inspect
+		;;
+	13)
+		search
 
+		;;
 esac
 
 }
+
