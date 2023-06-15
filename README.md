@@ -1,4 +1,4 @@
-# Welcome To Docker Automate Cli Tool
+#  🐳 Welcome To Automate Docker Cli Tool 🐳
 
 ## Experience the convenience of automating your daily Containers tasks with this Docker CLI Automation Script. Say goodbye to command   memorization and welcome a hassle-free approach to managing your Docker containers
 
